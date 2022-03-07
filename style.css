@@ -134,9 +134,12 @@
   @media all and (max-device-width: 500px) {
       body > header > nav {
           align-items: center;
+          margin-left: 40%;
+          margin-right: 40%;
       }
       body > main > article {
-margin: 0;
+         margin: 0;
+         text-align: left;
       }
       body > footer {
           text-align: center;
