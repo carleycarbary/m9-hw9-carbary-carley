@@ -131,7 +131,7 @@
     padding: 24px 0;
     color: var(--off-white);
   }
-  @media all and (max-device-width: 500px) {
+  @media all and (min-device-width: 500px) {
       body > header > nav {
           align-items: center;
           margin-left: 40%;
