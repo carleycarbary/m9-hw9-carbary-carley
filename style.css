@@ -140,7 +140,10 @@
       }
       body > main > article {
          margin: 0;
-         float: none
+         float: none;
+         display: flex;
+         justify-content: left;
+
       }
       body > main > article > img {
           float: none;
