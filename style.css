@@ -131,14 +131,17 @@
     padding: 24px 0;
     color: var(--off-white);
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-device-width: 500px) {
       .header {
+          padding: 25%;
          text-align: center;
       }
       .footer {
+          padding: 25%;
           text-align: center;
       }
       .script {
+          padding: 25%;
           text-align: center;
       }
   }
