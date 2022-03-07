@@ -131,23 +131,8 @@
     padding: 24px 0;
     color: var(--off-white);
   }
-  @media screen and (max-device-width: 500px) {
-      .header {
-          padding: 25%;
-          margin-left: 25%;
-          margin-right: 25%;
-         text-align: center;
+  @media screen 
+  and (max-device-width: 500px) 
+  and (min-device-width: 300px)
+  and (orientation: portrait) {
       }
-      .footer {
-          padding: 25%;
-          margin-left: 25%;
-          margin-right: 25%;
-          text-align: center;
-      }
-      .script {
-          padding: 25%;
-          margin-left: 5%;
-          margin-right: 5%;
-          text-align: center;
-      }
-  }
