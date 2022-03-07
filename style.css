@@ -132,4 +132,13 @@
     color: var(--off-white);
   }
   @media screen and (max-width: 500px) {
+      .header {
+         text-align: center;
+      }
+      .footer {
+          text-align: center;
+      }
+      .script {
+          text-align: center;
+      }
   }
