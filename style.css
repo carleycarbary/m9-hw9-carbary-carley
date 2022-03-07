@@ -134,12 +134,16 @@
   @media only screen and (min-device-width: 500px) {
       body > header > nav {
           align-items: center;
+          float: none;
           margin-left: 40%;
           margin-right: 40%;
       }
       body > main > article {
          margin: 0;
-         text-align: left;
+         float: none
+      }
+      body > main > article > img {
+          float: none;
       }
       body > footer {
           text-align: center;
