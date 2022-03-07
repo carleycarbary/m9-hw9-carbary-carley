@@ -134,6 +134,7 @@
   @media screen and (max-device-width: 500px) {
       .header {
           padding: 25%;
+          margin: 0%;
          text-align: center;
       }
       .footer {
