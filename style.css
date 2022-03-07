@@ -131,3 +131,5 @@
     padding: 24px 0;
     color: var(--off-white);
   }
+  @media screen and (max-width: 500px) {
+  }
